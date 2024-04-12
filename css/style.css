@@ -10624,6 +10624,182 @@ textarea {
     content: "+";
 }
 
+.header-nav {
+  position: fixed;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 56px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #02509e;
+  z-index: 100;
+}
+
+@media (max-width: 599px) {
+  .header-nav {
+    height: 70px;
+  }
+
+  .header-nav .logo {
+    height: 70px !important;
+  }
+}
+
+.header-nav .logo {
+  width: 140px;
+  height: 56px;
+  background-color: #1274ad;
+}
+
+@media (max-width: 599px) {
+  .header-nav .logo {
+    width: 141px;
+    z-index: 1000;
+  }
+}
+
+.header-nav .logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.header-nav .logo a img {
+  width: 148px;
+  height: 30px;
+}
+
+@media (max-width: 599px) {
+  .header-nav .logo a img {
+    width: 104px;
+  }
+}
+
+.header-nav .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  margin-right: 130px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width: 599px) {
+  .header-nav .nav {
+    position: fixed;
+    top: 0;
+    right: -100vw;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 120px 0 0;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    background-color: #1274ad;
+    z-index: 200;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+.header-nav .nav li {
+  margin-left: 40px;
+}
+
+@media (max-width: 599px) {
+  .header-nav .nav li {
+    margin: 0 auto 40px;
+    text-align: center;
+  }
+}
+
+.header-nav .nav li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 599px) {
+  .header-nav .nav.active {
+    right: 0;
+  }
+}
+
+.header-nav .sp-menu {
+  display: none;
+}
+
+@media (max-width: 599px) {
+  .header-nav .sp-menu {
+    position: relative;
+    cursor: pointer;
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+
+  .header-nav .sp-menu span {
+    display: inline-block;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    position: absolute;
+    right: 20px;
+    width: 26px;
+    height: 2px;
+    background: #fff;
+  }
+
+  .header-nav .sp-menu span:nth-of-type(1) {
+    top: 25px;
+  }
+
+  .header-nav .sp-menu span:nth-of-type(2) {
+    top: 33px;
+  }
+
+  .header-nav .sp-menu span:nth-of-type(3) {
+    top: 41px;
+  }
+}
+
+.header-nav .sp-menu.active span:nth-of-type(1) {
+  top: 28px;
+  right: 20px;
+  -webkit-transform: translateY(6px) rotate(-45deg);
+  transform: translateY(6px) rotate(-45deg);
+  width: 30%;
+}
+
+.header-nav .sp-menu.active span:nth-of-type(2) {
+  opacity: 0;
+}
+
+.header-nav .sp-menu.active span:nth-of-type(3) {
+  top: 40px;
+  right: 20px;
+  -webkit-transform: translateY(-6px) rotate(45deg);
+  transform: translateY(-6px) rotate(45deg);
+  width: 30%;
+}
+
 .side-bar-menu-wrapper {
   position: fixed;
   z-index: 99;
