@@ -10817,6 +10817,24 @@ img:hover, :focus {
   opacity: 1;
 }
 
+.language-mobile {
+  display: none;
+}
+
+.language-desktop {
+  display: block;
+}
+
+@media (max-width: 786px) {
+  .language-desktop {
+    display: none;
+  }
+
+  .language-mobile {
+    display: block;
+  }
+}
+
 /* procedure */
 .procedure-wrapper {
   margin-left: 5%;

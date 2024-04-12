@@ -185,7 +185,7 @@
   }
 
   //language
-$('.language-content').slick({
+$('.language-desktop').slick({
 	dots: false,
 	arrows: false,
 	infinite: true,
@@ -195,26 +195,29 @@ $('.language-content').slick({
 	autoplaySpeed: 0,
 	speed: 6000,
   });
+$('.language-mobile').slick({
+	dots: false,
+	arrows: false,
+	infinite: true,
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	autoplay: true,
+	autoplaySpeed: 0,
+	speed: 6000,
+});
   
 var $slickElement = $('.slick-carousel');
-var $status = $('.pagingInfo');
-
 $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
 
 	if(!slick.$dots){
 	return;
 	}
-
-	var i = (currentSlide ? currentSlide : 0) + 1;
-
-	$status.text(i + '/' + (slick.$dots[0].children.length));
-
 });
   
 $slickElement.slick({
 	infinite: true,
 	centerMode: false,
-	slidesToShow: 4,
+	slidesToShow: 3,
 	arrows: true, 
 	dots: true,
 	autoplaySpeed: 1000,
