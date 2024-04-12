@@ -10635,7 +10635,7 @@ textarea {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  color: #fff;
+  color: #02509e;
   transition: color .5s cubic-bezier(.075,.82,.165,1);
   font-family: Inter;
   font-size: 16px;
@@ -10647,7 +10647,7 @@ textarea {
   margin-bottom: 16px;
   position: relative;
   text-align: center;
-  color: #fff;
+  color: #02509e;
 }
 
 .side-bar-menu-wrapper .side-bar-menu .side-bar-menu-item.active {
@@ -10665,7 +10665,7 @@ textarea {
 
 .side-bar-menu-wrapper .side-bar-menu .side-bar-menu-item a {
   text-decoration: none;
-  color: #fff;
+  color: #02509e;
 }
 
 .side-bar-menu-footer {
@@ -11553,7 +11553,7 @@ img:hover, :focus {
   .card-container.slick-slider .slick-dots {
       display:flex;
       justify-content: center;
-      gap: 8px
+      gap: 8px;
   }
 }
 
@@ -11602,13 +11602,13 @@ img:hover, :focus {
   color: #51515b
 }
 
-@media only screen and (min-width: 786px) {
+@media (min-width: 786px) {
   .card-container .card-item {
       opacity:.8
   }
 }
 
-@media only screen and (max-width: 786px) {
+@media (max-width: 786px) {
   .card-container .card-item {
       padding-bottom:35px
   }
@@ -11657,7 +11657,7 @@ img:hover, :focus {
   margin-bottom: 16px
 }
 
-@media only screen and (max-width: 786px) {
+@media (max-width: 786px) {
   .card-container .card-item .progress-bar {
       display:none
   }
@@ -11707,7 +11707,7 @@ img:hover, :focus {
   opacity: 0
 }
 
-@media only screen and (max-width: 786px) {
+@media (max-width: 786px) {
   .card-container .card-item .item-image-wrapper .item-image-active {
       opacity:1
   }
@@ -11717,7 +11717,7 @@ img:hover, :focus {
   opacity: 1
 }
 
-@media only screen and (max-width: 786px) {
+@media (max-width: 786px) {
   .card-container .card-item .item-image-wrapper .item-image-inactive {
       display:none
   }
@@ -11738,7 +11738,7 @@ img:hover, :focus {
   font-weight: 400
 }
 
-@media only screen and (max-width: 786px) {
+@media (max-width: 786px) {
   .card-container .card-item .item-description {
       font-size:14px;
       line-height: 20px;
