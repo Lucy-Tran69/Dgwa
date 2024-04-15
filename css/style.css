@@ -17042,4 +17042,12 @@ img:hover,
     display: flex;
     justify-content: center;
   }
+
+  .slider {
+    height: 40vh;
+  }
+
+  .slide .slide__img img {
+    height: 40vh;
+  }
 }
