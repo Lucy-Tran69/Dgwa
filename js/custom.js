@@ -152,7 +152,7 @@
   
 	//menu scroll
 	$(window).scroll(function() {
-		  var scrollDistance = $(window).scrollTop() + 600;
+		  var scrollDistance = $(window).scrollTop() + 250;
 		  $('.component-section').each(function(i) {
 				if ($(this).position().top <= scrollDistance) {
 				$('.side-bar-menu-wrapper .side-bar-menu .side-bar-menu-item.active').removeClass('active');
