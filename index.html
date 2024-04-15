@@ -30,7 +30,6 @@
 	<link rel="stylesheet" href="css/flatpickr.min.css">
 	<link rel="stylesheet" href="css/glightbox.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script src="js/slick-animation.js"></script>
@@ -61,29 +60,14 @@
 		  <li class="side-bar-menu-item active" data-section="welcome" data-title="Welcome">
 			<a href="#welcome">W</a>
 		  </li>
-		  <li class="side-bar-menu-item false" data-section="mission" data-title="Our Mission">
-			<a href="#mission">M</a>
-		  </li>
-		  <li class="side-bar-menu-item false" data-section="quantity" data-title="Our quantity">
-			<a href="#quantity">Q</a>
-		  </li>
 		  <li class="side-bar-menu-item false" data-section="services" data-title="Our Services">
 			<a href="#services">S</a>
-		  </li>
-		  <li class="side-bar-menu-item false" data-section="languages" data-title="Languages">
-			<a href="#languages">L</a>
 		  </li>
 		  <li class="side-bar-menu-item false" data-section="projects" data-title="Projects">
 			<a href="#projects">P</a>
 		  </li>
-		  <li class="side-bar-menu-item false" data-section="progress" data-title="Progress">
-			<a href="#progress">P</a>
-		  </li>
 		  <li class="side-bar-menu-item false" data-section="global" data-title="Global">
 			<a href="#global">G</a>
-		  </li>
-		  <li class="side-bar-menu-item false" data-section="values" data-title="Our values">
-			<a href="#values">V</a>
 		  </li>
 		  <div class="side-bar-menu-footer">
 			<div class="scroll-text">
@@ -202,7 +186,7 @@
 
 	<!-- quantity -->
 	<section class="py-2 bg-dgwa component-section" id="quantity">
-		<div class="container">
+		<div class="container quantity-desktop">
 			<div class="row ">
 				<div class="col-lg-3 text-center mb-3 mb-lg-0   wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
 					<h3 class="heading text-white num" data-toggle="counter-up">40</h3>
@@ -212,6 +196,28 @@
 					<h3 class="heading text-white num" data-toggle="counter-up">236</h3>
 					<span class="text-white m-0">Projects</span>
 				</div>
+				<div class="col-lg-3 text-center mb-3 mb-lg-0 ">
+					<h3 class="heading text-white num" data-toggle="counter-up">245</h3>
+					<span class="text-white m-0">Employees</span>
+				</div>
+				<div class="col-lg-3 text-center mb-3 mb-lg-0 ">
+					<h3 class="heading text-white num" data-toggle="counter-up">6</h3>
+					<span class="text-white m-0">Branches</span>
+				</div>
+			</div>
+		</div>
+		<div class="container quantity-mobile">
+			<div class="row ">
+				<div class="col-lg-3 text-center mb-3 mb-lg-0   wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+					<h3 class="heading text-white num" data-toggle="counter-up">40</h3>
+					<span class="text-white m-0">Clients</span>
+				</div>
+				<div class="col-lg-3 text-center mb-3 mb-lg-0 ">
+					<h3 class="heading text-white num" data-toggle="counter-up">236</h3>
+					<span class="text-white m-0">Projects</span>
+				</div>
+			</div>
+			<div class="row ">
 				<div class="col-lg-3 text-center mb-3 mb-lg-0 ">
 					<h3 class="heading text-white num" data-toggle="counter-up">245</h3>
 					<span class="text-white m-0">Employees</span>
@@ -249,7 +255,7 @@
     </section>
 
 	<!--language-->
-	<section id="languages" class="component-section">
+	<section class="bg-dgwa" id="languages" class="component-section">
         <div class="language-desktop language-content">
           <div class="language-item">PHP</div>
           <div class="language-item">Python</div>
@@ -393,48 +399,47 @@
 	</section>
 
 	<!--progress-->
-	<section class="component-section" id="progress">
-		<h3 class="section-intro-heading text-center" style="margin-top: 30px;">OUR PROGRESS</h3>
-		<div class="card-container">
+	<section class="bg-dgwa component-section" id="progress">
+		<div class="progress-container">
 			<div class="card-item card-blue active">
+				<div class="item-title">Discover</div>
 				<div class="progress-bar active">
 					<div class="progress-bar-value"></div>
 				</div>
-				<div class="item-title">Discover</div>
 			</div>
 	
 			<div class="card-item card-green">
+				<div class="item-title">Define</div>
 				<div class="progress-bar">
 					<div class="progress-bar-value"></div>
 				</div>
-				<div class="item-title">Define</div>
 			</div>
 	
 			<div class="card-item card-orange">
+				<div class="item-title">Design</div>
 				<div class="progress-bar">
 					<div class="progress-bar-value"></div>
 				</div>
-				<div class="item-title">Design</div>
 			</div>
 	
 			<div class="card-item card-sky">
+				<div class="item-title">Develop</div>
 				<div class="progress-bar">
 					<div class="progress-bar-value"></div>
 				</div>
-				<div class="item-title">Develop</div>
 			</div>
 	
 			<div class="card-item card-purple">
+				<div class="item-title">Testing</div>
 				<div class="progress-bar">
 					<div class="progress-bar-value"></div>
 				</div>
-				<div class="item-title">Testing</div>
 			</div>
 			<div class="card-item card-purple">
+				<div class="item-title">Deliver</div> 
 				<div class="progress-bar">
 					<div class="progress-bar-value"></div>
 				</div>
-				<div class="item-title">Deliver</div>
 			</div>
 		</div>
 	</section>
@@ -442,7 +447,6 @@
 	<!-- global -->
 	<section class="section component-section" id="global">
 		<div class="container">
-
 			<div class="row justify-content-between align-items-center">
 				<div class="col-lg-5 mb-4 mb-lg-0">
 					<h1 class="heading aos-init aos-animate" data-aos="fade-up">Global Presence <br> Expanding our Presence and Strengthening our Connection to our Clients</h1>
@@ -457,10 +461,10 @@
 								<div class="accordion-body">
 									<div class="" data-aos="fade-up" data-aos-delay="100">
 										<div class="media-entry row">
-											<div class="bg-white m-body col-lg-6">
+											<div class="col-lg-6">
 												<h3><a href="#">株式会社ドキドキグルーヴワークス</a></h3>
 												<p>〒169-0051 東京都新宿区西早稲田2-21-12フェアウィンド高田馬場 5F</p>
-												<img src="images/company_map1.png" alt="Image" class="img-fluid">
+												<img src="images/company_map1.png" alt="Image" class="img-fluid" style="height: 72%;">
 											</div>
 											<div class="col-lg-6">
 												<img src="images/company_1.jpeg" alt="Image" class="img-fluid">
@@ -480,7 +484,7 @@
 									<div class="" data-aos="fade-up" data-aos-delay="100">
 										<div class="media-entry row">
 
-											<div class="bg-white m-body col-lg-6">
+											<div class="col-lg-6">
 
 												<h3><a href="#">DGWA Co., Ltd.</a></h3>
 												<p>
@@ -488,7 +492,7 @@
 
 												</p>
 
-												<img src="images/company_map1.png" alt="Image" class="img-fluid">
+												<img src="images/company_map1.png" alt="Image" class="img-fluid" style="height: 72%;">
 											</div>
 											<div class="col-lg-6">
 												<img src="images/company_1.jpeg" alt="Image" class="img-fluid">
@@ -508,12 +512,12 @@
 									<div class="" data-aos="fade-up" data-aos-delay="100">
 										<div class="media-entry row">
 
-											<div class="bg-white m-body col-lg-6">
+											<div class="col-lg-6">
 
 												<h3><a href="#">DGWA Co., Ltd. - Hue Branch</a></h3>
 												<p>5F, 28 Ly Thuong Kiet Street, Vinh Ninh Ward, Hue City, Vietnam</p>
 
-												<img src="images/company_map1.png" alt="Image" class="img-fluid">
+												<img src="images/company_map1.png" alt="Image" class="img-fluid" style="height: 72%;">
 											</div>
 											<div class="col-lg-6">
 												<img src="images/company_1.jpeg" alt="Image" class="img-fluid">
@@ -536,12 +540,12 @@
 									<div class="" data-aos="fade-up" data-aos-delay="100">
 										<div class="media-entry row">
 
-											<div class="bg-white m-body col-lg-6">
+											<div class="col-lg-6">
 
 												<h3><a href="#">DGWA Co., Ltd. - HCM Branch</a></h3>
 												<p>3F, ACM Building, 96 Cao Thang Street, Ward 4, District 3, Ho Chi Minh City, Vietnam</p>
 
-												<img src="images/company_map1.png" alt="Image" class="img-fluid">
+												<img src="images/company_map1.png" alt="Image" class="img-fluid" style="height: 72%;">
 											</div>
 											<div class="col-lg-6">
 												<img src="images/company_1.jpeg" alt="Image" class="img-fluid">
@@ -561,8 +565,6 @@
 
 	<!--Core values-->
 	<section class="component-section" id="values" style="margin-bottom: 8%;">
-		<h3 class="section-intro-heading text-center">OUR VALUES</h3>
-		<h2 class="section-main-heading text-center">The values we represent</h2>
 		<div class="card-container">
 			<div class="card-item card-blue active">
 				<div class="item-image-wrapper">
@@ -573,9 +575,6 @@
 					<div class="progress-bar-value"></div>
 				</div>
 				<div class="item-title">One-Team</div>
-				<div class="item-description text-center">
-					We believe that working together can always deliver digital excellence
-				</div>
 			</div>
 	
 			<div class="card-item card-green">
@@ -587,9 +586,6 @@
 					<div class="progress-bar-value"></div>
 				</div>
 				<div class="item-title">Innovation</div>
-				<div class="item-description text-center">
-					We seek creative solutions to overcome any business challenges
-				</div>
 			</div>
 	
 			<div class="card-item card-orange">
@@ -601,9 +597,6 @@
 					<div class="progress-bar-value"></div>
 				</div>
 				<div class="item-title">Agility</div>
-				<div class="item-description text-center">
-					We remain agile to stay ahead of the competition
-				</div>
 			</div>
 	
 			<div class="card-item card-sky">
@@ -615,9 +608,6 @@
 					<div class="progress-bar-value"></div>
 				</div>
 				<div class="item-title">Commitment</div>
-				<div class="item-description text-center">
-					We are entrusted to bring positive impact to our clients &amp; communities
-				</div>
 			</div>
 	
 			<div class="card-item card-purple">
@@ -629,9 +619,6 @@
 					<div class="progress-bar-value"></div>
 				</div>
 				<div class="item-title">Respect</div>
-				<div class="item-description text-center">
-					We appreciate each stakeholder's ideas and beliefs
-				</div>
 			</div>
 		</div>
 	</section>
@@ -690,11 +677,7 @@
 						</div>
 					</div>
 				</div>
-
 			</div>
-
-
-
 
 		<div class="wide-slider-testimonial-wrap">
 			<div class="wide-slider-testimonial">
@@ -996,68 +979,7 @@
 
 	<div class="site-footer">
 		<div class="container">
-
 			<div class="row">
-				<div class="col-lg-4">
-					<div class="widget">
-						<h3>About Passport<span class="text-primary">.</span> </h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-					</div> <!-- /.widget -->
-					<div class="widget">
-						<h3>Connect</h3>
-						<ul class="list-unstyled social">
-							<li><a href="#"><span class="icon-instagram"></span></a></li>
-							<li><a href="#"><span class="icon-twitter"></span></a></li>
-							<li><a href="#"><span class="icon-facebook"></span></a></li>
-							<li><a href="#"><span class="icon-linkedin"></span></a></li>
-							<li><a href="#"><span class="icon-pinterest"></span></a></li>
-							<li><a href="#"><span class="icon-dribbble"></span></a></li>
-						</ul>
-					</div> <!-- /.widget -->
-				</div> <!-- /.col-lg-3 -->
-
-				<div class="col-lg-2 ml-auto">
-					<div class="widget">
-						<h3>Links</h3>
-						<ul class="list-unstyled float-left links">
-							<li><a href="#">About us</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="#">News</a></li>
-							<li><a href="#">Careers</a></li>
-							<li><a href="#">Contact</a></li>
-						</ul>
-					</div> <!-- /.widget -->
-				</div> <!-- /.col-lg-3 -->
-
-				<div class="col-lg-2">
-					<div class="widget">
-						<h3>Company</h3>
-						<ul class="list-unstyled float-left links">
-							<li><a href="#">About us</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="#">News</a></li>
-							<li><a href="#">Careers</a></li>
-							<li><a href="#">Contact</a></li>
-						</ul>
-					</div> <!-- /.widget -->
-				</div> <!-- /.col-lg-3 -->
-
-
-				<div class="col-lg-3">
-					<div class="widget">
-						<h3>Contact</h3>
-						<address>43 Raymouth Rd. Baltemoer, London 3910</address>
-						<ul class="list-unstyled links mb-4">
-							<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
-							<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
-							<li><a href="mailto:info@mydomain.com">info@mydomain.com</a></li>
-						</ul>
-					</div> <!-- /.widget -->
-				</div> <!-- /.col-lg-3 -->
-
-			</div> <!-- /.row -->
-
-			<div class="row mt-5">
 				<div class="col-12 text-center">
 					<p class="mb-0">
 						Copyright &copy;
