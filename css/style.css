@@ -17365,9 +17365,13 @@ button {
 }
 
 @media screen and (max-width: 767px) {
+  .form-control {
+    height: 25px;
+  }
+
   .form {
     position: absolute;
-    top: calc(100% - 650px);
+    top: calc(100% - 530px);
     right: 50%;
     -webkit-transform: translateX(50%);
     transform: translateX(50%);
@@ -17420,7 +17424,6 @@ button {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-bottom: 18px;
   }
 
   .form-group .txt-label {
