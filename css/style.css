@@ -17212,7 +17212,6 @@ button {
 .form-group .txt-label {
   font-size: 12px;
   font-weight: 500;
-  margin-bottom: 8px;
 }
 
 .form-group .form-control {
@@ -17300,7 +17299,6 @@ button {
 }
 
 .form .wrap_btnSubmit {
-  margin-top: 20px;
   margin-bottom: 0;
 }
 
@@ -17369,7 +17367,7 @@ button {
 @media screen and (max-width: 767px) {
   .form {
     position: absolute;
-    top: calc(100% - 725px);
+    top: calc(100% - 650px);
     right: 50%;
     -webkit-transform: translateX(50%);
     transform: translateX(50%);
@@ -17428,7 +17426,6 @@ button {
   .form-group .txt-label {
     font-size: 16px;
     font-weight: 500;
-    margin-bottom: 16px;
   }
 
   .form-group .form-control {
