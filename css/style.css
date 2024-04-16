@@ -17156,14 +17156,13 @@ button {
 }
 
 /* form */
-/* .form {
-  position: absolute;
-  top: 78px;
-  right: 52px;
-  width: 370px;
-  height: auto;
-  
-} */
+.form {
+  background-color: #fff;
+  border-radius: 18px;
+  -webkit-box-shadow: 0 3px 6px #00000029;
+  box-shadow: 0 3px 6px #00000029;
+  padding: 25px 20px 37px;
+}
 
 .form .tit-h2_form {
   font-size: 22px;
@@ -17370,7 +17369,7 @@ button {
 @media screen and (max-width: 767px) {
   .form {
     position: absolute;
-    top: calc(100% + 80px);
+    top: calc(100% - 725px);
     right: 50%;
     -webkit-transform: translateX(50%);
     transform: translateX(50%);
