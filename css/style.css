@@ -59,7 +59,7 @@
   --bs-font-sans-serif: "Inter", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-family: "Noto Sans JP, sans-serif;";
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -287,7 +287,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: var(--bs-font-monospace);
+  font-family: "Noto Sans JP, sans-serif;";
   font-size: 1em;
   direction: ltr
     /* rtl:ignore */
@@ -649,8 +649,8 @@ progress {
 }
 
 .img-fluid {
-  width: 100%;
-  height: 100%;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
 }
 
@@ -7228,7 +7228,7 @@ fieldset:disabled .btn {
   z-index: 1080;
   display: block;
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Noto Sans JP, sans-serif;";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7355,7 +7355,7 @@ fieldset:disabled .btn {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Noto Sans JP, sans-serif;";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9354,7 +9354,7 @@ fieldset:disabled .btn {
 }
 
 .font-monospace {
-  font-family: var(--bs-font-monospace) !important;
+  font-family: "Noto Sans JP, sans-serif;" !important;
 }
 
 .fs-1 {
@@ -9577,7 +9577,7 @@ fieldset:disabled .btn {
 
 
 .mission-title {
-  font-family: "BR Omega";
+  font-family: "Noto Sans JP, sans-serif;";
   color: #18205b;
   font-weight: 700;
   font-size: 102px;
@@ -13483,7 +13483,7 @@ fieldset:disabled .btn {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Noto Sans JP, sans-serif;";
   font-weight: 400;
   font-size: 14px;
   color: #555;
@@ -13522,7 +13522,7 @@ h4,
 h5,
 .h5,
 .logo {
-  font-family: "Brygada 1918", sans-serif;
+  font-family: "Noto Sans JP, sans-serif;";
   color: #343661;
 }
 
@@ -13724,7 +13724,7 @@ textarea {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  font-family: 'icomoon';
+  font-family: "Noto Sans JP, sans-serif;";
 }
 
 .site-nav .site-navigation .site-menu .has-children .dropdown {
@@ -14002,7 +14002,7 @@ textarea {
 .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
   font-size: 14px;
   z-index: 20;
-  font-family: "icomoon";
+  font-family: "Noto Sans JP, sans-serif;";
   content: "\e313";
   position: absolute;
   top: 50%;
@@ -14791,14 +14791,14 @@ textarea {
   background: transparent;
   border: none;
   padding-left: 40px;
-  border-radius: 0;
+  border-radius: 5px;
   position: relative;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
 
 .custom-accordion .accordion-item .btn-link:before {
-  font-family: 'icomoon';
+  font-family: "Noto Sans JP, sans-serif;";
   content: "\f067";
   position: absolute;
   top: 50%;
@@ -14815,7 +14815,7 @@ textarea {
 }
 
 .custom-accordion .accordion-item .btn-link[aria-expanded="true"]:before {
-  font-family: 'icomoon';
+  font-family: "Noto Sans JP, sans-serif;";
   content: "\f068";
   position: absolute;
   color: #fff;
@@ -15458,7 +15458,7 @@ textarea {
 
 
 .section .textMission {
-  font-size: 20px;
+  font-size: 32px;
   color: #18205b;
   font-weight: 700;
   text-align: center;
@@ -15466,7 +15466,7 @@ textarea {
 
 @media (max-width: 991.98px) {
   .section .textMission {
-    font-size: 20px;
+    font-size: 19px;
     color: #18205b;
     font-weight: 700;
     text-align: center;
@@ -15668,7 +15668,7 @@ textarea {
   margin: 0;
   color: #02509e;
   transition: color .5s cubic-bezier(.075, .82, .165, 1);
-  font-family: Inter;
+  font-family: "Noto Sans JP, sans-serif;";
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -16827,7 +16827,7 @@ img:hover,
 }
 
 .card-container .card-item .item-title {
-  font-family: "BR Omega";
+  font-family: "Noto Sans JP, sans-serif;";
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
@@ -16863,27 +16863,27 @@ img:hover,
 }
 
 .progress-container.slick-slider .slick-dots li.slick-active:nth-child(1) button {
-  background-color: #fff
+  background-color: #ff9900
 }
 
 .progress-container.slick-slider .slick-dots li.slick-active:nth-child(2) button {
-  background-color: #fff
+  background-color: #ff9900
 }
 
 .progress-container.slick-slider .slick-dots li.slick-active:nth-child(3) button {
-  background-color: #fff
+  background-color: #ff9900
 }
 
 .progress-container.slick-slider .slick-dots li.slick-active:nth-child(4) button {
-  background-color: #fff
+  background-color: #ff9900
 }
 
 .progress-container.slick-slider .slick-dots li.slick-active:nth-child(5) button {
-  background-color: #fff
+  background-color: #ff9900
 }
 
 .progress-container.slick-slider .slick-dots li button {
-  background-color: #fff;
+  background-color: #ff9900;
   padding: 0;
   height: 2px;
   width: 100%
@@ -16908,7 +16908,7 @@ img:hover,
 }
 
 .progress-container .card-item.active {
-  color: #fff;
+  color: #ff9900;
   opacity: 1
 }
 
@@ -16921,23 +16921,23 @@ img:hover,
 }
 
 .progress-container .card-item.card-orange .progress-bar-value {
-  background-color: #fff
+  background-color: #ff9900
 }
 
 .progress-container .card-item.card-green .progress-bar-value {
-  background-color: #fff
+  background-color: #ff9900
 }
 
 .progress-container .card-item.card-blue .progress-bar-value {
-  background-color: #fff
+  background-color: #ff9900
 }
 
 .progress-container .card-item.card-purple .progress-bar-value {
-  background-color: #fff
+  background-color: #ff9900
 }
 
 .progress-container .card-item.card-sky .progress-bar-value {
-  background-color: #fff
+  background-color: #ff9900
 }
 
 .progress-container .card-item .progress-bar {
@@ -17018,7 +17018,7 @@ img:hover,
 }
 
 .progress-container .card-item .item-title {
-  font-family: "BR Omega";
+  font-family: "Noto Sans JP, sans-serif;";
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
@@ -17105,7 +17105,7 @@ img:hover,
   border-radius: 18px;
   opacity: 0;
   transition: all 0.4s;
-  z-index: 9999;
+  visibility: visible;
 }
 
 #check:checked~.wrapper {
