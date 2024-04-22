@@ -59,7 +59,7 @@
   --bs-font-sans-serif: "Inter", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: "Noto Sans JP, sans-serif;";
+  --bs-body-font-family: "Noto Sans JP", sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -82,7 +82,7 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family: "Noto Sans JP", sans-serif;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -287,7 +287,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: "Noto Sans JP, sans-serif;";
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1em;
   direction: ltr
     /* rtl:ignore */
@@ -7228,7 +7228,7 @@ fieldset:disabled .btn {
   z-index: 1080;
   display: block;
   margin: 0;
-  font-family: "Noto Sans JP, sans-serif;";
+  font-family: "Noto Sans JP", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7355,7 +7355,7 @@ fieldset:disabled .btn {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  font-family: "Noto Sans JP, sans-serif;";
+  font-family: "Noto Sans JP", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9354,7 +9354,7 @@ fieldset:disabled .btn {
 }
 
 .font-monospace {
-  font-family: "Noto Sans JP, sans-serif;" !important;
+  font-family: "Noto Sans JP", sans-serif !important;
 }
 
 .fs-1 {
@@ -9577,7 +9577,7 @@ fieldset:disabled .btn {
 
 
 .mission-title {
-  font-family: "Noto Sans JP, sans-serif;";
+  font-family: "Noto Sans JP", sans-serif;
   color: #18205b;
   font-weight: 700;
   font-size: 102px;
@@ -13483,7 +13483,7 @@ fieldset:disabled .btn {
 }
 
 body {
-  font-family: "Noto Sans JP, sans-serif;";
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #555;
@@ -13522,7 +13522,7 @@ h4,
 h5,
 .h5,
 .logo {
-  font-family: "Noto Sans JP, sans-serif;";
+  font-family: "Noto Sans JP", sans-serif;
   color: #343661;
 }
 
@@ -13724,7 +13724,7 @@ textarea {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  font-family: "Noto Sans JP, sans-serif;";
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .site-nav .site-navigation .site-menu .has-children .dropdown {
@@ -14002,7 +14002,7 @@ textarea {
 .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
   font-size: 14px;
   z-index: 20;
-  font-family: "Noto Sans JP, sans-serif;";
+  font-family: "Noto Sans JP", sans-serif;
   content: "\e313";
   position: absolute;
   top: 50%;
@@ -14557,6 +14557,10 @@ textarea {
   background-color: #02509e;
 }
 
+.destination-slider-wrap .tns-controls button {
+  display: none;
+}
+
 #destination-controls:active,
 #destination-controls:focus,
 #prevnext-testimonial:active,
@@ -14578,55 +14582,6 @@ textarea {
   height: 80px;
   background-color: #efefef;
   border-radius: 50%;
-}
-
-#destination-controls .next>span,
-#destination-controls .prev>span,
-#prevnext-testimonial .next>span,
-#prevnext-testimonial .prev>span {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-#destination-controls .next:hover,
-#destination-controls .prev:hover,
-#prevnext-testimonial .next:hover,
-#prevnext-testimonial .prev:hover {
-  opacity: 1;
-}
-
-#destination-controls .next:hover,
-#destination-controls .prev:hover,
-#prevnext-testimonial .next:hover,
-#prevnext-testimonial .prev:hover {
-  background-color: #f17945;
-  color: #fff;
-}
-
-#destination-controls .prev,
-#prevnext-testimonial .prev {
-  right: 0;
-}
-
-#destination-controls .prev:hover,
-#prevnext-testimonial .prev:hover {
-  color: #fff;
-  right: 7px;
-}
-
-#destination-controls .next,
-#prevnext-testimonial .next {
-  left: 0;
-}
-
-#destination-controls .next:hover,
-#prevnext-testimonial .next:hover {
-  color: #fff;
-  left: 7px;
 }
 
 .block-testimonial {
@@ -14798,7 +14753,7 @@ textarea {
 }
 
 .custom-accordion .accordion-item .btn-link:before {
-  font-family: "Noto Sans JP, sans-serif;";
+  font-family: "Noto Sans JP", sans-serif;
   content: "\f067";
   position: absolute;
   top: 50%;
@@ -14815,7 +14770,7 @@ textarea {
 }
 
 .custom-accordion .accordion-item .btn-link[aria-expanded="true"]:before {
-  font-family: "Noto Sans JP, sans-serif;";
+  font-family: "Noto Sans JP", sans-serif;
   content: "\f068";
   position: absolute;
   color: #fff;
@@ -15668,7 +15623,7 @@ textarea {
   margin: 0;
   color: #02509e;
   transition: color .5s cubic-bezier(.075, .82, .165, 1);
-  font-family: "Noto Sans JP, sans-serif;";
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -16666,27 +16621,27 @@ img:hover,
 }
 
 .card-container.slick-slider .slick-dots li.slick-active:nth-child(1) button {
-  background-color: #034ea2
+  background-color: #ffa31a
 }
 
 .card-container.slick-slider .slick-dots li.slick-active:nth-child(2) button {
-  background-color: #50b848
+  background-color: #ffa31a
 }
 
 .card-container.slick-slider .slick-dots li.slick-active:nth-child(3) button {
-  background-color: #f37021
+  background-color: #ffa31a
 }
 
 .card-container.slick-slider .slick-dots li.slick-active:nth-child(4) button {
-  background-color: #33b2c1
+  background-color: #ffa31a
 }
 
 .card-container.slick-slider .slick-dots li.slick-active:nth-child(5) button {
-  background-color: #19226d
+  background-color: #ffa31a
 }
 
 .card-container.slick-slider .slick-dots li button {
-  background-color: #a1a1a5;
+  background-color: #ffa31a;
   padding: 0;
   height: 2px;
   width: 100%
@@ -16717,7 +16672,7 @@ img:hover,
 }
 
 .card-container .card-item.active {
-  color: #1a1d29;
+  color: #ffa31a;
   opacity: 1
 }
 
@@ -16730,23 +16685,23 @@ img:hover,
 }
 
 .card-container .card-item.card-orange .progress-bar-value {
-  background-color: #f37021
+  background-color: #ffa31a
 }
 
 .card-container .card-item.card-green .progress-bar-value {
-  background-color: #50b848
+  background-color: #ffa31a
 }
 
 .card-container .card-item.card-blue .progress-bar-value {
-  background-color: #034ea2
+  background-color: #ffa31a
 }
 
 .card-container .card-item.card-purple .progress-bar-value {
-  background-color: #19226d
+  background-color: #ffa31a
 }
 
 .card-container .card-item.card-sky .progress-bar-value {
-  background-color: #33b2c1
+  background-color: #ffa31a
 }
 
 .card-container .card-item .progress-bar {
@@ -16755,7 +16710,7 @@ img:hover,
   height: 2px;
   border-radius: 2px;
   overflow: hidden;
-  background-color: #a1a1a5;
+  background-color: #fff;
   margin-bottom: 16px
 }
 
@@ -16827,7 +16782,7 @@ img:hover,
 }
 
 .card-container .card-item .item-title {
-  font-family: "Noto Sans JP, sans-serif;";
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
@@ -16863,27 +16818,27 @@ img:hover,
 }
 
 .progress-container.slick-slider .slick-dots li.slick-active:nth-child(1) button {
-  background-color: #ff9900
+  background-color: #ffa31a
 }
 
 .progress-container.slick-slider .slick-dots li.slick-active:nth-child(2) button {
-  background-color: #ff9900
+  background-color: #ffa31a
 }
 
 .progress-container.slick-slider .slick-dots li.slick-active:nth-child(3) button {
-  background-color: #ff9900
+  background-color: #ffa31a
 }
 
 .progress-container.slick-slider .slick-dots li.slick-active:nth-child(4) button {
-  background-color: #ff9900
+  background-color: #ffa31a
 }
 
 .progress-container.slick-slider .slick-dots li.slick-active:nth-child(5) button {
-  background-color: #ff9900
+  background-color: #ffa31a
 }
 
 .progress-container.slick-slider .slick-dots li button {
-  background-color: #ff9900;
+  background-color: #ffa31a;
   padding: 0;
   height: 2px;
   width: 100%
@@ -16908,7 +16863,7 @@ img:hover,
 }
 
 .progress-container .card-item.active {
-  color: #ff9900;
+  color: #ffa31a;
   opacity: 1
 }
 
@@ -16921,23 +16876,23 @@ img:hover,
 }
 
 .progress-container .card-item.card-orange .progress-bar-value {
-  background-color: #ff9900
+  background-color: #ffa31a
 }
 
 .progress-container .card-item.card-green .progress-bar-value {
-  background-color: #ff9900
+  background-color: #ffa31a
 }
 
 .progress-container .card-item.card-blue .progress-bar-value {
-  background-color: #ff9900
+  background-color: #ffa31a
 }
 
 .progress-container .card-item.card-purple .progress-bar-value {
-  background-color: #ff9900
+  background-color: #ffa31a
 }
 
 .progress-container .card-item.card-sky .progress-bar-value {
-  background-color: #ff9900
+  background-color: #ffa31a
 }
 
 .progress-container .card-item .progress-bar {
@@ -17018,7 +16973,7 @@ img:hover,
 }
 
 .progress-container .card-item .item-title {
-  font-family: "Noto Sans JP, sans-serif;";
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
@@ -17105,7 +17060,7 @@ img:hover,
   border-radius: 18px;
   opacity: 0;
   transition: all 0.4s;
-  visibility: visible;
+  z-index: 9999;
 }
 
 #check:checked~.wrapper {
@@ -17565,4 +17520,94 @@ button {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+}
+
+.visual_main_ttl {
+  line-height: 9rem;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 15.4rem;
+  letter-spacing: .5em;
+  position: relative
+}
+
+.visual_main_ttl .span01 {
+  font-size: 6.2rem;
+  opacity: 0;
+  display: inline-block
+}
+
+.visual_main_ttl .span01 .small {
+  opacity: 1
+}
+
+.visual_main_ttl .span02 {
+  font-size: 6.4rem
+}
+
+.visual_main_ttl .span03 {
+  font-size: 3.8rem;
+  vertical-align: text-bottom;
+  margin-right: -1rem
+}
+
+.visual_main_ttl .span04 {
+  font-size: 3.8rem;
+  vertical-align: baseline;
+  margin-right: -1.5rem
+}
+
+.visual_main_ttl .small {
+  font-size: 5rem
+}
+
+.visual_main_ttl .row2 {
+  margin-top: -3rem
+}
+
+.visual_main_ttl .is-span02 {
+  -webkit-transform: translate(-2rem);
+  transform: translate(-2rem)
+}
+
+.visual_main_ttl .is-span03 {
+  -webkit-transform: translateY(-2rem);
+  transform: translateY(-2rem)
+}
+
+.fz-35 {
+  font-size: 3.5rem;
+}
+
+.cl-mainblue {
+  color: #007bbb;
+}
+
+.span-01 {
+  font-size: 2rem;
+  vertical-align: text-top;
+}
+
+.span-02 {
+  font-size: 2rem;
+}
+
+.p-01 {
+  color: #000;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.bgr-banner {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  opacity: 0.5;
 }

@@ -94,7 +94,6 @@
 				gutter: 30,
 				autoplay: true,
 				autoplayButtonOutput: false,
-				controlsContainer: "#destination-controls",
 				responsive: {
 					350: {
 						items: 1
