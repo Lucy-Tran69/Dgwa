@@ -142,9 +142,9 @@
 		  scrollY > sectionTop &&
 		  scrollY <= sectionTop + sectionHeight
 		){
-		  document.querySelector(".side-bar-menu-wrapper .side-bar-menu .side-bar-menu-item").classList.add("active");
+		  document.querySelector(".side-bar-menu-wrapper .side-bar-menu .side-bar-menu-item").addClass('active');
 		} else {
-		  document.querySelector(".side-bar-menu-wrapper .side-bar-menu .side-bar-menu-item.active").classList.remove("active");
+		  document.querySelector(".side-bar-menu-wrapper .side-bar-menu .side-bar-menu-item.active").removeClass('active');
 		}
 	  });
 	}
@@ -227,7 +227,7 @@ $slickElement.slick({
 });
 
 //represent
-var t = ".card-container .card-item"
+var t = ".core-container .card-item"
 , e = ".progress-bar"
 , r = 5e3
 , n = []
@@ -244,8 +244,8 @@ if (o.length) {
   n[a].progressBar.classList.add("active"),
   window.requestAnimationFrame((function o(i) {
       var c, l;
-      i - s > r && (null === (c = document.querySelector("".concat(t, ".active"))) || void 0 === c || c.classList.remove("active"),
-      null === (l = document.querySelector("".concat(t, " ").concat(e, ".active"))) || void 0 === l || l.classList.remove("active"),
+      i - s > r && (null === (c = document.querySelector("".concat(t, ".active"))) || void 0 === c || c.removeClass('active'),
+      null === (l = document.querySelector("".concat(t, " ").concat(e, ".active"))) || void 0 === l || l.removeClass('active'),
       s = performance.now(),
       ++a === n.length && (a = 0),
       n[a].card.classList.add("active"),
@@ -253,7 +253,7 @@ if (o.length) {
       window.requestAnimationFrame(o)
   }
   )),
-  $(window).width() < 769 ? jQuery(".card-container").slick({
+  $(window).width() < 769 ? jQuery(".core-container").slick({
 	dots: !0,
 	infinite: !0,
 	fade: !0,
@@ -261,7 +261,7 @@ if (o.length) {
 	speed: 1e3,
 	arrows: !1,
 	autoplay: !0
-}) : jQuery(".card-container.slick-slider").slick("unslick")
+}) : jQuery(".core-container .slick-slider").slick("unslick")
 }
 
 //progress
