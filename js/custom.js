@@ -174,12 +174,14 @@
   panel.addEventListener("click", () => {
     removeActive();
     panel.classList.add("active");
+    panel.querySelector(".panel-detail-btn").classList.remove("d-none");
   });
   });
 
   function removeActive() {
   panels.forEach((panel) => {
     panel.classList.remove("active");
+    panel.querySelector(".panel-detail-btn").classList.add("d-none");
   });
   }
 

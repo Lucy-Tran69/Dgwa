@@ -15728,7 +15728,6 @@ textarea {
 
 .panel h3 {
   font-size: 13px;
-  position: absolute;
   margin: 0;
   display: flex;
   align-items: center;
@@ -15736,7 +15735,6 @@ textarea {
   padding: 24px;
   left: unset;
   bottom: 0;
-  width: 100%;
   color: #000;
 }
 
@@ -15757,6 +15755,41 @@ textarea {
   height: 100%;
   object-fit: cover;
   opacity: .15;
+}
+
+.panel-detail {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  background-color: #f4f4f4;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.panel-detail-title {
+  color: #000;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.panel-detail-btn {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  left: unset;
+  bottom: 15px;
+  left: 80%;
+}
+
+.button-detail {
+  opacity: 1;
+  position: static;
+  transition: all .3s linear;
+  transition-delay: .3s;
+  margin-right: 30px;
 }
 
 .active img {
@@ -17105,8 +17138,8 @@ button {
 .btn,
 .btn:focus,
 .btn:hover {
-  background-color: blue;
-  border: blue
+  background-color: #034ea2;
+  border: #034ea2
 }
 
 #check {
@@ -17613,4 +17646,35 @@ button {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   opacity: 0.5;
+}
+
+@media (max-width: 786px) {
+  .slide .slide__content {
+    width: 100%;
+  }
+
+  .slide .slide__content--headings h1 {
+    font-size: 20px;
+  }
+
+  .slide .slide__content {
+    top: 50%;
+  }
+
+  .span-01, .span-02 {
+    font-size: 13px;
+  }
+
+  .fz-35, .p-01 {
+    font-size: 15px;
+  }
+
+  .w-50 {
+    width: 50%;
+  }
+
+  .slide .slide__content--headings h2 {
+    font-size: 15px;
+    line-height: 35px;
+  }
 }
