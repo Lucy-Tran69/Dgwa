@@ -90,9 +90,10 @@
 				swipeAngle: false,
 				speed: 700,
 				edgePadding: 50,
-				nav: true,
+				nav: false,
 				gutter: 30,
 				autoplay: true,
+				lazyload: true,
 				autoplayButtonOutput: false,
 				responsive: {
 					350: {
@@ -106,7 +107,7 @@
 						items: 3
 					},
 					900: {
-						items: 5
+						items: 4
 					}
 				},
 			})
