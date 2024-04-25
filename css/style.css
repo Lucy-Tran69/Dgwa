@@ -17678,3 +17678,15 @@ button {
     line-height: 35px;
   }
 }
+
+.destination-slider-company{
+  position: relative;
+}
+
+.destination-slider-company .tns-nav {
+ display: none;
+}
+
+.destination-slider-company .tns-controls button {
+  display: none;
+}
