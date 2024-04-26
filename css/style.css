@@ -14722,7 +14722,7 @@ textarea {
 .custom-accordion .accordion-item .btn-link[aria-expanded="true"]:before {
   font-family: "Noto Sans JP", sans-serif;
   content: "";
-  background-image: url("/images/svg/caret-down-fill.svg");
+  background-image: url("../images/svg/caret-down-fill.svg");
   width: 18px;
   height: 18px;
 }
@@ -14730,7 +14730,7 @@ textarea {
 .custom-accordion .accordion-item .btn-link[aria-expanded="false"]:before {
   font-family: "Noto Sans JP", sans-serif;
   content: "";
-  background-image: url("/images/svg/caret-up-fill.svg");
+  background-image: url("../images/svg/caret-up-fill.svg");
   width: 18px;
   height: 18px;
 }
@@ -15806,7 +15806,7 @@ img:hover,
 
   .panel-detail-btn::after {
     content: "";
-    background-image: url("/images/svg/arrow-right.svg");
+    background-image: url("../images/svg/arrow-right.svg");
     width: 50px;
     height: 24px;
     background-repeat: no-repeat;
