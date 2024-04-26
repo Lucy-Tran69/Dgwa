@@ -15686,6 +15686,7 @@ textarea {
   position: relative;
   transition: flex 0.7s ease-in;
   cursor: pointer;
+  margin-bottom: 0 !important;
 }
 
 .panel h3 {
@@ -15731,6 +15732,28 @@ textarea {
 
 }
 
+.panel-description {
+  position: absolute;
+  width: 100%;
+  bottom: 55px;
+  display: flex;
+  background-color: #f4f4f4;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  opacity: 0.5;
+}
+
+.panel-description-text {
+  position: absolute;
+  bottom: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  margin-left: 30px;
+}
+
 .panel-detail-title {
   color: #000;
   padding: 20px;
@@ -15753,6 +15776,10 @@ textarea {
   transition: all .3s linear;
   transition-delay: .3s;
   margin-right: 30px;
+}
+
+.button-detail .btn {
+  display: flex;
 }
 
 .active img {
@@ -16613,15 +16640,19 @@ img:hover,
   align-items: center;
 }
 
-.core-container .slick-slider .slick-dots {
-  bottom: -30px
+.core-container.slick-slider .slick-dots {
+  bottom: -20px !important;
 }
 
-@media only screen and (max-width: 786px) {
-  .core-container .slick-slider .slick-dots {
+@media (max-width: 786px) {
+  .core-container.slick-slider .slick-dots {
     display: flex;
     justify-content: center;
     gap: 8px;
+  }
+
+  .core-container .card-item .progress-bar {
+    display: none
   }
 }
 
@@ -16632,23 +16663,23 @@ img:hover,
 }
 
 .core-container.slick-slider .slick-dots li.slick-active:nth-child(1) button {
-  background-color: #fff
+  background-color: #ffa31a
 }
 
 .core-container.slick-slider .slick-dots li.slick-active:nth-child(2) button {
-  background-color: #fff
+  background-color: #ffa31a
 }
 
 .core-container.slick-slider .slick-dots li.slick-active:nth-child(3) button {
-  background-color: #fff
+  background-color: #ffa31a
 }
 
 .core-container.slick-slider .slick-dots li.slick-active:nth-child(4) button {
-  background-color: #fff
+  background-color: #ffa31a
 }
 
 .core-container.slick-slider .slick-dots li.slick-active:nth-child(5) button {
-  background-color: #fff
+  background-color: #ffa31a
 }
 
 .core-container.slick-slider .slick-dots li button {
@@ -16668,6 +16699,12 @@ img:hover,
   flex-direction: column;
   align-items: center;
   color: #fff
+}
+
+.core-container.slick-slider .slick-dots li {
+  width: 60px;
+  height: 30px;
+  margin: 0
 }
 
 @media (min-width: 786px) {
@@ -16720,10 +16757,6 @@ img:hover,
 }
 
 @media (max-width: 786px) {
-  .core-container .card-item .progress-bar {
-    display: none
-  }
-
   .core-container .card-item.active {
     color: #fff;
   }
@@ -16812,11 +16845,12 @@ img:hover,
   bottom: -30px
 }
 
-@media only screen and (max-width: 786px) {
+@media (max-width: 786px) {
   .progress-container.slick-slider .slick-dots {
-    display: none !important;
+    display: flex;
     justify-content: center;
     gap: 8px;
+    margin-bottom: 10px;
   }
 }
 
@@ -16827,23 +16861,23 @@ img:hover,
 }
 
 .progress-container.slick-slider .slick-dots li.slick-active:nth-child(1) button {
-  background-color: #fff
+  background-color: #ffa31a
 }
 
 .progress-container.slick-slider .slick-dots li.slick-active:nth-child(2) button {
-  background-color: #fff
+  background-color: #ffa31a
 }
 
 .progress-container.slick-slider .slick-dots li.slick-active:nth-child(3) button {
-  background-color: #fff
+  background-color: #ffa31a
 }
 
 .progress-container.slick-slider .slick-dots li.slick-active:nth-child(4) button {
-  background-color: #fff
+  background-color: #ffa31a
 }
 
 .progress-container.slick-slider .slick-dots li.slick-active:nth-child(5) button {
-  background-color: #fff
+  background-color: #ffa31a
 }
 
 .progress-container.slick-slider .slick-dots li button {
@@ -16915,12 +16949,13 @@ img:hover,
 }
 
 @media (max-width: 786px) {
-  .progress-container .card-item .progress-bar {
-    display: none
+  .progress-container .card-item.active {
+    color: #ffa31a;
   }
 
-  .progress-container .card-item.active {
-    color: #fff;
+  .progress-container .card-item .progress-bar {
+    width: 70%;
+    display: none;
   }
 }
 

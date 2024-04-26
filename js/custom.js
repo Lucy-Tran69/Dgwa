@@ -176,6 +176,8 @@
     removeActive();
     panel.classList.add("active");
     panel.querySelector(".panel-detail-btn").classList.remove("d-none");
+	panel.querySelector(".panel-description").classList.remove("d-none");
+	panel.querySelector(".panel-description-text").classList.remove("d-none");
   });
   });
 
@@ -183,6 +185,8 @@
   panels.forEach((panel) => {
     panel.classList.remove("active");
     panel.querySelector(".panel-detail-btn").classList.add("d-none");
+	panel.querySelector(".panel-description").classList.add("d-none");
+	panel.querySelector(".panel-description-text").classList.add("d-none");
   });
   }
 
