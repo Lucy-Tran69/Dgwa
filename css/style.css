@@ -14433,7 +14433,6 @@ textarea {
 @media (max-width: 991.98px) {
   .section {
     padding-top: 3rem;
-    padding-bottom: 3rem;
   }
 }
 
@@ -16789,7 +16788,7 @@ img:hover,
 
 @media only screen and (max-width: 786px) {
   .progress-container.slick-slider .slick-dots {
-    display: flex;
+    display: none !important;
     justify-content: center;
     gap: 8px;
   }
@@ -17631,23 +17630,29 @@ button {
   .tartist-tiny-slider[data-chunksize='12'] .wrap{
     grid-template-columns: repeat(4, 1fr);
   }
+
+  .progress-container .slick-dots {
+    display: none;
+  }
+  
 }
 
 .tartist-tiny-slider-wrap{
   width: 100%;
-  padding: 0;
+  padding: 10px;
 }
 .tartist-tiny-slider .wrap{
   display: inline-grid !important;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 5px;
 }
 
 .tartist-tiny-slider__item{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150px;
+  height: 80px;
+  width: 80px;
   font-size: 1.2em;
   background-color: #2779a8;
   color: #ffffff;
@@ -17690,6 +17695,7 @@ button {
   }
   .tartist-tiny-slider__item{
     height: 200px;
+    width: 100%;
     font-size: 2em;
   }
   .tartist-tiny-slider[data-chunksize='1'] .wrap{
@@ -17726,4 +17732,8 @@ button {
     grid-template-columns: repeat(6, 1fr);
   }
 
+}
+
+#tns2 > .tns-item {
+  padding-right: 0 !important;
 }
