@@ -14721,14 +14721,18 @@ textarea {
 
 .custom-accordion .accordion-item .btn-link[aria-expanded="true"]:before {
   font-family: "Noto Sans JP", sans-serif;
-  content: "\f068";
-  position: absolute;
-  color: #fff;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  left: 15px;
+  content: "";
+  background-image: url("/images/svg/caret-down-fill.svg");
+  width: 18px;
+  height: 18px;
+}
+
+.custom-accordion .accordion-item .btn-link[aria-expanded="false"]:before {
+  font-family: "Noto Sans JP", sans-serif;
+  content: "";
+  background-image: url("/images/svg/caret-up-fill.svg");
+  width: 18px;
+  height: 18px;
 }
 
 .custom-accordion .accordion-item.active {
