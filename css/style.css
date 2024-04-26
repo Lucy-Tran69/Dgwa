@@ -15746,7 +15746,7 @@ textarea {
 
 .panel-description-text {
   position: absolute;
-  bottom: 85px;
+  bottom: 95px;
   display: flex;
   justify-content: space-between;
   align-items: center;
