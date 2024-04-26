@@ -189,8 +189,8 @@
 
 .slider [data-animation-in] {
   opacity: 0;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
