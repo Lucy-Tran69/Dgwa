@@ -14686,6 +14686,14 @@ textarea {
   overflow: hidden;
 }
 
+.custom-accordion .accordion-item h2 {
+  margin-top: 0 !important;
+}
+
+.custom-accordion .accordion-item h3 {
+  margin-top: 0 !important;
+}
+
 .custom-accordion .accordion-item .btn-link {
   display: block;
   width: 100%;
@@ -15417,6 +15425,7 @@ textarea {
   width: 140px;
   height: 56px;
   background-color: #1274ad;
+  margin: 0 !important;
 }
 
 @media (max-width: 599px) {
@@ -15707,7 +15716,7 @@ textarea {
 .panel img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   opacity: .15;
 }
 
@@ -17003,11 +17012,11 @@ img:hover,
   }
 
   .slider {
-    height: 40vh;
+    height: 60vh;
   }
 
   .slide .slide__img img {
-    height: 40vh;
+    height: 60vh;
   }
 }
 
@@ -17603,7 +17612,7 @@ button {
 }
 
 .bgr-banner {
-  background-image: linear-gradient(to right,rgb(230, 242, 255, 1), rgba(242, 242, 242, 0.7), rgba(255, 255, 255, 0.3));
+  background-image: linear-gradient(to right,rgb(230, 242, 255, 1), rgba(242, 242, 242, 0.3), rgba(255, 255, 255, 0));
   position: absolute;
   width: 100%;
   height: 100%;

@@ -19,6 +19,8 @@
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
 }
 
 .achievements-list {
@@ -224,6 +226,8 @@
 
 .achievements-detail_infor p span:first-child {
     min-width: 19%;
+    color: #064386;
+    font-weight: bold;
 }
 
 @media (max-width: 992px) {
@@ -326,4 +330,8 @@
 
 .modal-header {
     border-bottom: none !important;
+}
+
+.modal-dialog {
+    margin-top: 100px !important;
 }
