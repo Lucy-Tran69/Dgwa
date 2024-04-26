@@ -15799,6 +15799,20 @@ img:hover,
   .language-mobile {
     display: flex;
   }
+
+  .panel-detail-btn::after {
+    content: "";
+    background-image: url("/images/svg/arrow-right.svg");
+    width: 50px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: right;
+    transition: all .5s cubic-bezier(.165,.84,.44,1);
+  }
+
+  .panel-detail-btn span {
+    display: none;
+  }
 }
 
 /* procedure */
