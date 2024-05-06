@@ -146,8 +146,8 @@
   max-width: 100%;
   height: auto;
   opacity: 1 !important;
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
   -webkit-transition: all 1.5s ease;
   transition: all 1.5s ease;
 }
